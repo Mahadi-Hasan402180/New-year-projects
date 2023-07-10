@@ -1,0 +1,123 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-image: url('../images/banner/banner2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.header-title{
+    padding-bottom: 24px;
+        color:#151414;
+        font-size: 60px;
+        font-weight:bolder;
+        font-family: Work Sans;
+        width: 380px;
+        height: 200px;
+    
+    
+}
+
+.header-description{
+    padding-bottom: 32px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 380px;
+    height: 70px;
+}
+    
+.btn-primary{
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;  
+    width: 160px;
+    height: 60px;
+    border: none;
+}
+
+.header-container{
+    color: black;
+    text-align: right;
+    padding: 216px 230px 365px 845px;
+}
+
+/* star main  */
+
+.section-persion{
+  width: 1000px;
+  height: 2000px;
+
+}
+
+.section-containr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+
+}
+
+.person-image{
+    padding: 150px 150px 150px 150px;
+
+}
+
+person-information{
+    padding:150px 50px 150px 250px ;
+}
+.person-title{
+    padding-bottom:16px;
+
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 280px;
+    height: 100px;
+   
+
+}
+
+.person-description{
+    width: 370px;
+    height: 110px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+
+}
+
+.person-listwork{
+    width: 316px;
+    height: 26px;
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+
+}
+
+ul li:before {
+    content: '✓';
+    color: aqua;
+    font-weight: bold;
+    
+  }
