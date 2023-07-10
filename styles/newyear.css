@@ -61,7 +61,7 @@
 
 .section-persion{
   width: 1000px;
-  height: 2000px;
+  height: 1000px;
 
 }
 
@@ -70,16 +70,17 @@
     justify-content: space-around;
     align-items: center;
     text-align: left;
+    padding-bottom: 20px;
 
 }
 
 .person-image{
-    padding: 150px 150px 150px 150px;
+    padding: 150px 150px 50px 150px;
 
 }
 
 person-information{
-    padding:150px 50px 150px 250px ;
+    padding:150px 50px 50px 250px ;
 }
 .person-title{
     padding-bottom:16px;
@@ -121,3 +122,32 @@ ul li:before {
     font-weight: bold;
     
   }
+
+  .plan-container{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    text-align: center;
+    
+  }
+  .plan-title{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+ .skill-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 16px;
+ }
+.skill-description{
+    color: #737272; 
+    font-size: 25px;
+    font-weight: 500;
+}
+ 
+
+  
